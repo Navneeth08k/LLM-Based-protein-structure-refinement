@@ -20,5 +20,5 @@ def test_gemini(api_key):
 
 if __name__ == "__main__":
     import sys
-    key = sys.argv[1] if len(sys.argv) > 1 else "AIzaSyCysoJy90NepgnfLHgaZfkevSb1vonPSX0"
+    key = sys.argv[1] if len(sys.argv) > 1 else os.getenv("GEMINI_API_KEY", "")
     test_gemini(key)

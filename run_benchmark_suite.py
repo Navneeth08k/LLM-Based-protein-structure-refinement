@@ -19,7 +19,7 @@ def run_benchmark(row, use_auto_context=False):
         r".\venv\Scripts\python", "main.py",
         "--uniprot", uniprot_id,
         "--provider", "gemini",
-        "--api_key", "AIzaSyCysoJy90NepgnfLHgaZfkevSb1vonPSX0", # Hardcoded for now, ideally env var
+        "--api_key", os.getenv("GEMINI_API_KEY", ""), # Securely fetch from env
         "--ground_truth", gt_pdb,
         "--ground_truth", gt_pdb,
         "--gt_chain", gt_chain,
