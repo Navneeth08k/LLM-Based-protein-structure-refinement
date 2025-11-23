@@ -9,6 +9,9 @@ from src.llm.context_agent import ContextAgent
 from src.geometry.refiner import GeometricRefiner
 from src.physics.minimizer import EnergyMinimizer
 from src.utils.data_fetcher import AlphaFoldFetcher
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def main():
     parser = argparse.ArgumentParser(description="LLM-Guided Protein Refinement")

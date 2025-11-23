@@ -28,9 +28,9 @@ AlphaFold is revolutionary but often struggles with IDPs, predicting them as low
     ```
 
 3.  **Set up API Keys:**
-    You need a Google Gemini API key (or OpenAI). Set it as an environment variable or pass it via command line.
-    ```bash
-    export GEMINI_API_KEY="your_api_key_here"
+    Create a `.env` file in the root directory and add your key:
+    ```env
+    GEMINI_API_KEY=your_api_key_here
     ```
 
 ---

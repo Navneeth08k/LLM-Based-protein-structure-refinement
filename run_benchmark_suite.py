@@ -5,6 +5,9 @@ import os
 import time
 
 import argparse
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def run_benchmark(row, use_auto_context=False):
     uniprot_id = row['uniprot_id']

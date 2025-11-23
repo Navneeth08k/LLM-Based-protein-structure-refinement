@@ -11,3 +11,4 @@ python-dotenv
 jupyter
 matplotlib
 seaborn
+python-dotenv

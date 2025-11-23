@@ -1,5 +1,8 @@
 import os
 import google.generativeai as genai
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def test_gemini(api_key):
     print(f"Testing Gemini with key: {api_key[:5]}...")
