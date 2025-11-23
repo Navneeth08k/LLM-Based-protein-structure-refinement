@@ -1,0 +1,16 @@
+uniprot_id,ground_truth_pdb,gt_chain,focus_region,context
+Q16665,1L8C,B,786-826,"HIF-1a C-terminal transactivation domain bound to CBP/p300 TAZ1 domain. It folds into three alpha helices (H1, H2, H3) that wrap around the target."
+P04637,1YCR,B,19-26,"p53 N-terminal transactivation domain bound to MDM2. It forms an amphipathic alpha helix upon binding."
+
+
+Q92793,1KBH,B,2066-2112,"CBP nuclear coactivator binding domain (NCBD) bound to ACTR. It forms a bundle of three helices upon binding."
+P04637,1TSR,B,19-26,"p53 N-terminal transactivation domain bound to MDM2. It forms an amphipathic alpha helix upon binding."
+P29353,1G3J,A,,"Human Shc PTB domain bound to a phosphopeptide. The peptide adopts a beta-turn conformation."
+P01106,1YCR,A,,"MYC proto-oncogene protein. Binds to MAX and folds into a helix-loop-helix leucine zipper."
+P46527,1JSU,C,,"p27(Kip1) bound to Cdk2-Cyclin A. It wraps around the complex, forming a helix and other extended structures."
+Q01094,1L8C,B,,"HIF-1a C-terminal TAD bound to CBP. Folds into three helices."
+P01100,1AM9,B,,"c-Fos leucine zipper domain bound to c-Jun. Forms a coiled-coil helix."
+P05412,1AM9,A,,"c-Jun leucine zipper domain bound to c-Fos. Forms a coiled-coil helix."
+P50552,1F01,B,,"VASP EVH1 domain bound to ActA peptide. The peptide binds in a polyproline II helix conformation."
+O00255,1F01,A,,"MENA EVH1 domain bound to ActA peptide. Similar to VASP."
+P04626,1YCR,A,,"ErbB2 receptor bound to Herceptin Fab. Not an IDP folding case, but a control."
